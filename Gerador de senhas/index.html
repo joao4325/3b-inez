@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="container">
+        <i class="fa-solid  fa-unlock-keyhole"></i>
+        <h1>Gerar senha</h1>
+        <div id="senhas">
+            <input type="text">
+            <i class="fa-solid fa-copy"></i>
+        </div>
+        <div id="configs">
+            <div class="itens">
+                <input type="number" name="quantidade" id="quantidade">
+                <label for="quantidade">Quantidade de caracteres</label>
+            </div>
+            <div class="itens">
+                <input type="checkbox" name="maiuscula" id="maiuscula">
+                <label for="maiuscula">Incluir letra maiuscúla</label>
+            </div>
+            <div class="itens">
+                <input type="checkbox" name="maiuscula" id="maiuscula">
+                <label for="maiuscula">Incluir letra minúscula</label>
+            </div>
+            <div class="itens">
+                <input type="checkbox" name="maiuscula" id="maiuscula">
+                <label for="maiuscula">Incluir número</label>
+            </div>
+            <div class="itens">
+                <input type="checkbox" name="maiuscula" id="maiuscula">
+                <label for="maiuscula">Incluir caractere especial</label>
+            </div>
+            <button>Gerar senha</button>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
