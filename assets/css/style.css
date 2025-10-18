@@ -181,6 +181,14 @@ main #info {
     color: white;
 }
 
+#infos p {
+    font-size: 18px;
+    font-weight: 550;
+    text-align: justify;
+    line-height: 1.3em;
+    width: 100%;
+}
+
 #box-3 p,
 #box-4 p {
     color: #FDEBF3;
@@ -192,12 +200,6 @@ main #info {
     text-decoration: underline;
 }
 
-#infos p {
-    font-size: 18px;
-    text-align: justify;
-    line-height: 1.3em;
-    width: 100%;
-}
 
 #info #links {
     display: flex;
@@ -334,4 +336,5 @@ main #info {
     .link a {
         font-size: 20px;
     }
+
 }
