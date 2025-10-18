@@ -3,42 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de senhas</title>
+    <title>Outubro Rosa</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div id="container">
-        <i class="fa-solid  fa-unlock-keyhole"></i>
-        <h1>Gerar senha</h1>
-        <div id="senhas">
-            <input type="text">
-            <i class="fa-solid fa-copy"></i>
+    <header>
+        <div id="titles-area">
+            <div id="text-1">
+                <h1>Outubro rosa</h1>
+            </div>
+            <div id="title-2">
+                <h2>Juntas pela vida</h2>
+            </div>
         </div>
-        <div id="configs">
-            <div class="itens">
-                <input type="number" name="quantidade" id="quantidade">
-                <label for="quantidade">Quantidade de caracteres</label>
+    </header>
+    <main>
+        <section id="banner" class="section-area">
+            <div id="banner-area">
+                <div id="img-banner">
+                    <img src="assets/images/laco-outubro-rosa.png">
+                </div>
+                <div id="container-frases">
+                    <div id="frases-area">
+                        <div>Outubro rosa: espalhe amor e informação</div>
+                        <div>Seu cuidado é amor próprio</div>
+                        <div>Detectar cedo é salvar vidas</div>
+                        <div>Cuidar de si é um gesto <br class="quebra"> de força</div>
+                    </div>
+                </div>
             </div>
-            <div class="itens">
-                <input type="checkbox" name="maiuscula" id="maiuscula">
-                <label for="maiuscula">Incluir letra maiuscúla</label>
+        </section>
+        <section id="info" class="section-area">
+            <div id="info-area">
+                <div id="infos">
+                    <h2>Informações</h2>
+                    <div id="container-box">
+                            <div class="box-info" id="box-1">
+                                <h3>O que é o Câncer de mama?</h3>
+                                    <p>O câncer de mama é um dos tipos de câncer mais comuns entre as mulheres no Brasil e no mundo. Ele ocorre quando há um crescimento anormal das células da mama, que podem formar um tumor e, em casos mais graves, se espalhar para outras partes do corpo.</p>
+                            </div>
+                            <div class="box-info" id="box-2">
+                                <h3>Prevenção</h3>
+                                    <p>A prevenção é fundamental. Manter uma alimentação saudável, praticar atividades físicas regularmente, evitar o consumo excessivo de álcool e não fumar ajudam a reduzir os riscos. Além disso, o autoexame das mamas deve ser feito mensalmente, para que a mulher conheça seu corpo e perceba qualquer alteração.</p>
+                            </div>
+                            <div class="box-info" id="box-3">
+                                <h3>Diagnóstico</h3>
+                                    <p>O diagnóstico precoce aumenta muito as chances de cura. A mamografia é o exame mais eficaz para detectar o câncer em estágios iniciais, mesmo antes dos sintomas aparecerem. É recomendada principalmente para mulheres a partir dos 40 anos, ou antes, em casos de histórico familiar.</p>
+                            </div>
+                            <div class="box-info" id="box-4">
+                                <h3>Tratamento</h3>
+                                    <p>O tratamento varia de acordo com o estágio da doença e pode incluir cirurgia, radioterapia, quimioterapia, hormonioterapia ou terapia-alvo. Com o avanço da medicina, as chances de cura são cada vez maiores, especialmente quando o diagnóstico é feito cedo.</p>
+                            </div>
+                        </div>
+                </div>
+                <div id="links">
+                    <div class="link">
+                        <a href="https://www.gov.br/inca/pt-br">Instituto Nacional de Câncer</a>
+                    </div>
+                    <div class="link">
+                        <a href="https://sbmastologia.com.br/">Sociedade Brasileira de Mastologia</a>
+                    </div>
+                    <div class="link">
+                        <a href="https://www.gov.br/saude/pt-br">Ministério da Saúde</a>
+                    </div>
+                </div>
+                <div id="mensagem-area">
+                    <p>Você não está sozinha</p>
+                </div>  
             </div>
-            <div class="itens">
-                <input type="checkbox" name="maiuscula" id="maiuscula">
-                <label for="maiuscula">Incluir letra minúscula</label>
-            </div>
-            <div class="itens">
-                <input type="checkbox" name="maiuscula" id="maiuscula">
-                <label for="maiuscula">Incluir número</label>
-            </div>
-            <div class="itens">
-                <input type="checkbox" name="maiuscula" id="maiuscula">
-                <label for="maiuscula">Incluir caractere especial</label>
-            </div>
-            <button>Gerar senha</button>
-        </div>
-    </div>
-    <script src="assets/js/script.js"></script>
+        </section>
+    </main>
 </body>
 </html>
